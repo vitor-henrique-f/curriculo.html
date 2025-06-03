@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+h1 {
+    color: brown; /*Cor de texto*/
+    text-align: center; /*Alinhamento de texto*/ 
+    font-family:'Times New Roman'; /*Tipo de fonte*/  
+    padding: 30px; /*Espaçamento interno*/
+}
+
+body {
+    background-color: white; /*Cor de fundo*/
+    padding: 20px;      
+    background-image:url(C:\Users\aluno.saolucas\AulawebSite\curriculo.html\marjan-blan-9tqAeLDQT-o-unsplash.jpg);
+    background-size: cover;
+}
+
+hr {
+    
+
+}
