@@ -5,15 +5,19 @@
 }
 
 h1 {
-    color: brown; /*Cor de texto*/
+    color: darkmagenta; /*Cor de texto*/
     text-align: center; /*Alinhamento de texto*/ 
     font-family:'Times New Roman'; /*Tipo de fonte*/  
     padding: 30px; /*Espaçamento interno*/
 }
 
 body {
-    background-color: white; /*Cor de fundo*/
+    background-color: lightcyan; /*Cor de fundo*/
     padding: 20px;      
 
 }
 
+hr {
+margin: 14px;
+border: 1px solid darkred;
+}
