@@ -1,23 +1,73 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 h1 {
-    color: darkmagenta; /*Cor de texto*/
-    text-align: center; /*Alinhamento de texto*/ 
-    font-family:'Times New Roman'; /*Tipo de fonte*/  
-    padding: 30px; /*Espaçamento interno*/
+    color: rgb(255, 231, 98);
+    /*Cor de texto*/
+    text-align: center;
+    /*Alinhamento de texto*/
+    font-family: 'elegant 2';
+    /*Fonte de texto*/
+    padding: 40px;
+    /*Espaçamento interno*/
 }
 
 body {
-    background-color: lightcyan; /*Cor de fundo*/
-    padding: 20px;      
-
+    padding: 20px;
+    text-align: center;
+    background-image: url('img/bright-lights-dark-background.jpg');
+    /*Imagem de fundo do background*/
+    background-repeat: no-repeat;
+    /*Repetição do background*/
+    background-size: cover;
+    /*Tamanho do background*/
 }
 
-hr {
-margin: 14px;
-border: 1px solid darkred;
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 15px;
+    /*Espaçamento externo*/
+    font-size: large;
+    color: rgb(207, 207, 207);
+}
+
+h2 {
+    font-family: 'elegant 2';
+    color: rgb(209, 190, 81);
+    font-size: 22px;
+}
+
+h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    /*Tamanho da fonte*/
+    color: rgb(185, 168, 72);
+    margin: 25px;
+}
+
+a {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: 'elegant 1';
+    src: url(fonts/ANDREW\ ELEGANT\ Regular.otf) format('opentype'), url(fonts/ANDREW\ ELEGANT\ Regular.ttf) format(truetype);
+    /*Fonte do texto baixada*/
+    font-weight: normal;
+    /*Negrito e grossura da fonte*/
+    font-style: normal;
+    /*Estilo da fonte*/
+}
+
+@font-face {
+    font-family: 'elegant 2';
+    src: url(fonts/HEROEAU\ ELEGANT\ DEMO.otf) format(opentype), url(fonts/HEROEAU\ ELEGANT\ DEMO.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
 }
